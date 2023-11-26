@@ -1,0 +1,10 @@
+JVM info: Oracle Corporation - 1.8.0_351 - 25.351-b10
+java.net.preferIPv4Stack=true
+Current Time: 26/10/2023 18:43:18
+Host: files.minecraftforge.net [51.79.83.165]
+Host: maven.minecraftforge.net [51.79.83.165]
+Host: libraries.minecraft.net [13.107.246.44, 13.107.213.44]
+Host: launchermeta.mojang.com [13.107.213.45, 13.107.246.45]
+Host: piston-meta.mojang.com [13.107.213.44, 13.107.246.44]
+Host: authserver.mojang.com [13.33.243.103, 13.33.243.49, 13.33.243.122, 13.33.243.48]
+Found java version 1.8.0_351
