@@ -73,7 +73,7 @@ $(function () {
    })
 
    setInterval(() => {
-      if ($(window).scrollTop() > 0 && $('.header__top').hasClass('header__top--open') === false) {
+      if ($(window).scrollTop() > 0 && $('.header__top').hasClass('header__top--open')) {
          $('.burger').addClass('burger--follow')
       } else {
          $('.burger').removeClass('burger--follow')
