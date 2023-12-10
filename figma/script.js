@@ -89,5 +89,23 @@ $(function () {
    $('.footer__nav-link').on('click', function () {
       $('.footer__nav').slideToggle()
    })
+   $('.aboutus__grid-item').on('click', function (e) {
+      e.preventDefault()
+   })
+   $('.aboutus__link-direction').on('click', function (e) {
+      e.preventDefault()
+   })
+   $('.process__button-btn').on('click', function (e) {
+      e.preventDefault()
+   })
+   $('.cta__button').on('click', function (e) {
+      e.preventDefault()
+   })
+   $('.blog__links').on('click', function (e) {
+      e.preventDefault()
+   })
+   $('.footer__socials-item').on('click', function (e) {
+      e.preventDefault()
+   })
 });
 
