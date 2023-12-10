@@ -803,8 +803,9 @@ h1 {
    display: inline-flex;
    z-index: 200; 
 }
-.footer__logo p {
-   margin-left: 10px;
+.footer__nav-link {
+   display: none;
+   margin-top: 10px;
    font-family: Manrope;
    font-size: 22px;
    font-style: normal;
@@ -1348,6 +1349,9 @@ h1 {
       display: none;
    }
    .footer__content-bot {
+      display: block;
+   }
+   .footer__nav-link {
       display: block;
    }
    .footer__nav-list {
