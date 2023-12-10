@@ -83,7 +83,10 @@ $(function () {
    $('.footer__logo').on('click', function (e) {
       e.preventDefault()
    })
-   $('.footer__logo').on('click', function () {
+   $('.footer__nav-link').on('click', function (e) {
+      e.preventDefault()
+   })
+   $('.footer__nav-link').on('click', function () {
       $('.footer__nav').slideToggle()
    })
 });
