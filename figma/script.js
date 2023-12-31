@@ -117,6 +117,14 @@ $(function () {
       e.preventDefault();
       return false;
    });
+      $(".footer__links").on("click", function (e) {
+      var anchor = $(this);
+      $('html, body').stop().animate({
+         scrollTop: $(anchor.attr('href')).offset().top
+      }, 777);
+      e.preventDefault();
+      return false;
+   });
 
 });
 
