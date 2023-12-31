@@ -818,7 +818,13 @@ h1 {
    font-size: 16px;
    font-style: normal;
    font-weight: 600;
-   line-height: 28px;  
+   line-height: 28px; 
+   -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Old versions of Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+   user-select: none;
 }
 .testimonials {
    background-color: #F2F2F2;
