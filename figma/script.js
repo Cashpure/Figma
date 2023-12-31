@@ -126,5 +126,10 @@ $(function () {
       return false;
    });
 
+
+      $('.links').on('click', function () {
+      $('.header__top').toggleClass('header__top--open');
+   })
+
 });
 
